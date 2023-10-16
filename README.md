@@ -18,12 +18,9 @@ The following technologies and tools are used in this project:
 
 You can view a live demo site at this link:  [Museun_NAMU](https://andriiyelieva.github.io/Museun_NAMU/)
 
+## Launching the Project.
 
-## Installation and startup instructions
-
-1. Clone the repository to your computer:
-
-   ## shell
-   git clone https://github.com/AndriiYelieva/Museun_NAMU
-   
-2.  Use. 
+1. Clone this repository to your computer.
+2. Use `npm install` or `yarn install` to install all project dependencies.
+3. Run the project with `npm start` or `yarn start`.
+4. Open a web browser and go to `http://localhost:3000` to see my application.
