@@ -16,7 +16,7 @@ The following technologies and tools are used in this project:
 
 ## Demo link
 
-You can view a live demo site at this link:  [Museun_NAMU](https://andriiyelieva.github.io/Museun_NAMU/)
+You can view a live demo site at this link:  [Museun_NAMU](https://andriiyelieva.github.io/Museum_NAMU/)
 
 ## Launching the Project.
 
