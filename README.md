@@ -18,6 +18,11 @@ The following technologies and tools are used in this project:
 
 You can view a live demo site at this link:  [Museun_NAMU](https://andriiyelieva.github.io/Museum_NAMU/)
 
+ ## Design Mockup
+
+ Design Mockup
+To view the design mockup for this project, click on the following link: [Design Mockup](https://www.figma.com/file/HL3XGt5ZatvJoYBhOaWY5x/museum-prototype?node-id=323%3A1957&mode=dev).
+
 ## Launching the Project.
 
 1. Clone this repository to your computer.
