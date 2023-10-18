@@ -70,13 +70,11 @@
       overflow: hidden;
       margin: 0 0 20px;
       box-shadow: 0 3px 10px rgba(99, 78, 97, 0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
 
       &:hover {
         transform: translateY(-10px);
-
         box-shadow: 0 3px 10px rgba(99, 78, 97, 1);
-
-        transition: transform 0.3s;
       }
 
       @include onTablet {

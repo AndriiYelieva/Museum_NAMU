@@ -1,9 +1,10 @@
 .menu {
   background: $color-background;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  min-height: 100vh;
+
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 24px 0;
+  overflow-y: auto;
 
   @include onTablet {
     background-position: bottom center;
@@ -91,6 +92,7 @@
 
     &-nav {
       text-decoration: none;
+
       @include onDesktop {
         &:hover {
           border-bottom: 1px solid $color-white;

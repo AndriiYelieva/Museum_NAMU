@@ -53,46 +53,6 @@
     }
   }
 
-  // &__photo {
-  //   height: 100%;
-  //   width: 100%;
-  //   object-fit: cover;
-  //   box-shadow: 0 3px 10px rgba(99, 78, 97, 0.5);
-
-  //   @include onTablet {
-  //     height: 280px;
-  //     width: 280px;
-  //   }
-
-  //   @include onDesktop {
-  //     height: 370px;
-  //     width: 570px;
-  //   }
-
-  //   &:hover {
-  //     transform: translateY(-6px);
-
-  //     box-shadow: 0 3px 10px rgba(99, 78, 97, 1);
-
-  //     transition: transform 0.3s;
-  //   }
-
-  //   &-container {
-  //     position: relative;
-  //     height: 100%;
-  //     width: 100%;
-
-  //     @include onTablet {
-  //       max-height: 420px;
-  //       margin: 0;
-  //     }
-
-  //     @include onDesktop {
-  //       max-height: 570px;
-  //     }
-  //   }
-  // }
-
   &__photo {
     position: absolute;
     height: 100%;
@@ -110,13 +70,11 @@
       overflow: hidden;
       margin: 0 0 20px;
       box-shadow: 0 3px 10px rgba(99, 78, 97, 0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
 
       &:hover {
         transform: translateY(-10px);
-
         box-shadow: 0 3px 10px rgba(99, 78, 97, 1);
-
-        transition: transform 0.3s;
       }
 
       @include onTablet {
